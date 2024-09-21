@@ -132,6 +132,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
         <li><a href="manage_orders.php"><i class="fas fa-shopping-cart"></i> Gérer les commandes</a></li>
         <li><a href="manage_users.php"><i class="fas fa-users"></i> Gérer les utilisateurs</a></li>
         <li><a href="edit_content.php"><i class="fas fa-edit"></i> Modifier le contenu</a></li>
+        <li><a href="calculatrice.php"><i class="fas fa-edit"></i> calculatrice</a></li>
     </ul>
 </div>
 
@@ -182,6 +183,18 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
                         </div>
                         <h5 class="card-title">Modifier le contenu</h5>
                         <a href="/ecommerce-site/edit_content.php" class="btn btn-primary mt-3">Modifier le contenu</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm p-4 mb-4">
+                    <div class="card-body text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <h5 class="card-title">calculatrice</h5>
+                        <a href="/ecommerce-site/admin/calculatrice.php" class="btn btn-primary mt-3">calculer</a>
                     </div>
                 </div>
             </div>
